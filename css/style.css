@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.achivements-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(217, 217, 217);
+    padding: 30px 20px;
+}
+
+.achivement-item {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    padding: 20px 10px;
+}
+
+
+#infos {
+    background-color: blueviolet;
+    padding: 40px 0px;
+}
+
+.infos-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.info-item {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+#our-motto {
+    padding: 40px 0px;
+}
+
+.our-motto-wrapper {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.motto-description {
+    text-align: center;
+}
+
+
+.mv-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+
+.mv-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.heading-blue {
+    color: blue;
+}
+
+.mv-item-image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mv-item-image-container>img {
+    width: 50px;
+
+}
