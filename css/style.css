@@ -113,3 +113,32 @@
     padding: 10px 20px;
     border-radius: 4px;
 }
+
+
+
+#dedication {
+    background-color: yellow;
+}
+
+
+.dedication-container {
+    background-color: aqua;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.dedication-top {
+    text-align: center;
+    max-width: 800px;
+    background-color: red;
+    margin: auto;
+}
+
+.dedication-items-container {
+    display: flex;
+    gap: 10px;
+}
+
+.dedication-item {
+    background-color: gray;
+}
