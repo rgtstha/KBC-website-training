@@ -9,6 +9,52 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+
+.info-container {
+    background-color: blue;
+    color: white;
+
+}
+
+.info-container-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.info-contacts {
+    display: flex;
+    gap: 20px;
+}
+
+.info-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.info-socials>a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-container {
+    background-color: #d4effb;
+    padding: 20px 0px;
+}
+
+.nav-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.nav-menu-items {
+    display: flex;
+    gap: 10px;
+}
+
 .parent {
     background-color: yellow;
     display: flex;
@@ -21,7 +67,6 @@ body {
     padding: 40px;
     width: 200px;
 }
-
 
 
 
