@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .parent {
     background-color: yellow;
     display: flex;
@@ -212,4 +217,18 @@ ul {
     height: 200px;
     object-fit: cover;
 
+}
+
+.achivement-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.nav-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
