@@ -10,6 +10,11 @@ body {
 }
 
 
+header {
+    position: sticky;
+    top: 0px;
+}
+
 .info-container {
     background-color: blue;
     color: white;
@@ -42,6 +47,7 @@ body {
 .nav-container {
     background-color: #d4effb;
     padding: 20px 0px;
+
 }
 
 .nav-wrapper {
