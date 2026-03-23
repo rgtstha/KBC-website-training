@@ -374,3 +374,24 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+
+
+.media-test {
+    color: red;
+}
+
+@media (max-width: 1024px) {
+    .media-test {
+        color: yellow;
+    }
+
+    .gallery-wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    .gallery-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
