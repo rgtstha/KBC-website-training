@@ -44,59 +44,6 @@ body {
 }
 
 
-.absolute-parent {
-    height: 500px;
-    width: 500px;
-    border: 4px solid gray;
-    margin: 80px;
-    position: relative;
-    border-radius: 10px;
-}
-
-.absolute-child {
-    height: 80px;
-    width: 80px;
-    border: 2px solid black;
-    background-color: yellow;
-    position: absolute;
-    top: -40px;
-    left: 60px;
-    border-radius: 50%;
-}
-
-.absolute-child>img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
-
-.box {
-    height: 400px;
-    width: 400px;
-    border-radius: 20px;
-}
-
-.blue-box {
-    background-color: blue;
-    position: relative;
-}
-
-.red-box {
-    background-color: red;
-    position: absolute;
-    top: -40px;
-    left: 40px;
-
-}
-
-.green-box {
-    background-color: green;
-    position: absolute;
-    top: -80px;
-    left: 80px;
-}
-
-
 header {
     position: sticky;
     top: 0px;
@@ -137,28 +84,9 @@ header {
 
 }
 
-.nav-wrapper {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-}
-
 .nav-menu-items {
     display: flex;
     gap: 10px;
-}
-
-.parent {
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.item {
-    border: 1px solid black;
-    padding: 40px;
-    width: 200px;
 }
 
 
@@ -277,10 +205,6 @@ header {
 }
 
 
-
-#dedication {}
-
-
 .dedication-container {
 
     max-width: 1200px;
@@ -308,15 +232,16 @@ header {
     padding: 20px;
 }
 
-
+#footer-section {
+    background-color: #d4effb;
+}
 
 .footer-wrapper {
-
     max-width: 1200px;
     margin: auto;
     display: flex;
+    gap: 20px;
     padding: 60px 0px;
-    background-color: white;
 }
 
 
@@ -375,23 +300,41 @@ ul {
     align-items: center;
 }
 
-
-.media-test {
-    color: red;
-}
-
 @media (max-width: 1024px) {
-    .media-test {
-        color: yellow;
-    }
-
     .gallery-wrapper {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mv-wrapper {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .achivements-container {
+        flex-direction: column;
+    }
+
+    .infos-container {
+        flex-direction: column;
+    }
+
+    .dedication-items-container {
+        flex-direction: column;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
     }
 }
 
 @media (max-width: 720px) {
     .gallery-wrapper {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .info-container-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
